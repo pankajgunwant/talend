@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_0u590KTlEeasCIKFErXQlQ" label="TalendExplore" description="TalendExplore" language="java" technicalLabel="TALENDEXPLORE" creationDate="2016-11-07T17:55:48.000+0530" author="_0u590aTlEeasCIKFErXQlQ" productVersion="Talend Data Services Platform-6.2.1.20160704_1411" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/pankajgunwant/talend.git&quot;,&quot;login&quot;:&quot;pankajgunwant&quot;,&quot;passwd&quot;:&quot;wmznlnHvYkzVKPU/nO6q0Q==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3">
+  <TalendProperties:Project xmi:id="_0u590KTlEeasCIKFErXQlQ" label="TalendExplore" description="TalendExplore" language="java" technicalLabel="TALENDEXPLORE" creationDate="2016-11-07T17:55:48.000+0530" author="_0u590aTlEeasCIKFErXQlQ" referencedProjects="_iGyOoa1VEea5xsVdFC8Vaw" productVersion="Talend Data Services Platform-6.2.1.20160704_1411" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/pankajgunwant/talend.git&quot;,&quot;login&quot;:&quot;pankajgunwant&quot;,&quot;passwd&quot;:&quot;wmznlnHvYkzVKPU/nO6q0Q==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3">
     <technicalStatus xmi:id="_4Yq50KTlEeasCIKFErXQlQ" label="development" code="DEV"/>
     <technicalStatus xmi:id="_4Yq50aTlEeasCIKFErXQlQ" label="testing" code="TEST"/>
     <technicalStatus xmi:id="_4Yq50qTlEeasCIKFErXQlQ" label="production" code="PROD"/>
@@ -340,4 +340,8 @@
     <migrationTask xmi:id="_5O4woaTlEeasCIKFErXQlQ" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_0u590aTlEeasCIKFErXQlQ" login="admin@company.com" firstName="admin" lastName="admin" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_iGyOoK1VEea5xsVdFC8Vaw" login="admin1@company.com" firstName="admin1" lastName="admin1" type="DQ" additionnalData="{}"/>
+  <TalendProperties:ProjectReference xmi:id="_iGyOoa1VEea5xsVdFC8Vaw" project="_0u590KTlEeasCIKFErXQlQ" branch="master" referencedBranch="master">
+    <referencedProject href="../COPY_OF_TALENDEXPLORE/talend.project#projectReference"/>
+  </TalendProperties:ProjectReference>
 </xmi:XMI>
